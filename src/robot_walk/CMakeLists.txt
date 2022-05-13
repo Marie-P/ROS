@@ -208,3 +208,8 @@ include_directories(
 catkin_install_python(PROGRAMS scripts/walk.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+add_executable(robot_walk src/robot_walk.cpp)
+add_dependencies(robot_walk ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(robot_walk ${catkin_LIBRARIES})
+# add_dependencies(talker beginner_tutorials_generate_messages_cpp)

@@ -3,7 +3,7 @@
 import rospy
 from geometry_msgs.msg import Twist
 
-def talker():
+def callback():
   rospy.init_node('vel_publisher')
   pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
   move = Twist()
@@ -15,4 +15,4 @@ def talker():
     rate.sleep()
 
 if __name__=="__main__":
-  talker()
+  callback()

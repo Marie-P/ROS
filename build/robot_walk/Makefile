@@ -317,6 +317,48 @@ rosgraph_msgs_generate_messages_py/fast:
 	cd /home/mp/ROS/build && $(MAKE) -f robot_walk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make robot_walk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
+# Convenience name for target.
+robot_walk/CMakeFiles/robot_walk.dir/rule:
+	cd /home/mp/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 robot_walk/CMakeFiles/robot_walk.dir/rule
+.PHONY : robot_walk/CMakeFiles/robot_walk.dir/rule
+
+# Convenience name for target.
+robot_walk: robot_walk/CMakeFiles/robot_walk.dir/rule
+
+.PHONY : robot_walk
+
+# fast build rule for target.
+robot_walk/fast:
+	cd /home/mp/ROS/build && $(MAKE) -f robot_walk/CMakeFiles/robot_walk.dir/build.make robot_walk/CMakeFiles/robot_walk.dir/build
+.PHONY : robot_walk/fast
+
+src/robot_walk.o: src/robot_walk.cpp.o
+
+.PHONY : src/robot_walk.o
+
+# target to build an object file
+src/robot_walk.cpp.o:
+	cd /home/mp/ROS/build && $(MAKE) -f robot_walk/CMakeFiles/robot_walk.dir/build.make robot_walk/CMakeFiles/robot_walk.dir/src/robot_walk.cpp.o
+.PHONY : src/robot_walk.cpp.o
+
+src/robot_walk.i: src/robot_walk.cpp.i
+
+.PHONY : src/robot_walk.i
+
+# target to preprocess a source file
+src/robot_walk.cpp.i:
+	cd /home/mp/ROS/build && $(MAKE) -f robot_walk/CMakeFiles/robot_walk.dir/build.make robot_walk/CMakeFiles/robot_walk.dir/src/robot_walk.cpp.i
+.PHONY : src/robot_walk.cpp.i
+
+src/robot_walk.s: src/robot_walk.cpp.s
+
+.PHONY : src/robot_walk.s
+
+# target to generate assembly for a file
+src/robot_walk.cpp.s:
+	cd /home/mp/ROS/build && $(MAKE) -f robot_walk/CMakeFiles/robot_walk.dir/build.make robot_walk/CMakeFiles/robot_walk.dir/src/robot_walk.cpp.s
+.PHONY : src/robot_walk.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -340,6 +382,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... robot_walk"
+	@echo "... src/robot_walk.o"
+	@echo "... src/robot_walk.i"
+	@echo "... src/robot_walk.s"
 .PHONY : help
 
 

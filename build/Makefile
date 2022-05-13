@@ -675,6 +675,19 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named robot_walk
+
+# Build rule for target.
+robot_walk: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_walk
+.PHONY : robot_walk
+
+# fast build rule for target.
+robot_walk/fast:
+	$(MAKE) -f robot_walk/CMakeFiles/robot_walk.dir/build.make robot_walk/CMakeFiles/robot_walk.dir/build
+.PHONY : robot_walk/fast
+
+#=============================================================================
 # Target rules for targets named turtlebot3_diagnostics
 
 # Build rule for target.
@@ -1896,6 +1909,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... robot_walk"
 	@echo "... turtlebot3_diagnostics"
 	@echo "... diagnostic_msgs_generate_messages_nodejs"
 	@echo "... sensor_msgs_generate_messages_eus"
