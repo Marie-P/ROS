@@ -56,3 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_walk" TYPE PROGRAM FILES "/home/mp/ROS/build/robot_walk/catkin_generated/installspace/walk.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_walk" TYPE PROGRAM FILES "/home/mp/ROS/build/robot_walk/catkin_generated/installspace/avoid_obstacle.py")
+endif()
+

@@ -1,0 +1,1 @@
+export TURTLEBOT3_MODEL=burger && source devel/setup.bash && roslaunch turtlebot3_gazebo turtlebot3_world.launch

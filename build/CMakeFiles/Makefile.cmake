@@ -50,6 +50,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/mp/ROS/src/CMakeLists.txt"
   "/home/mp/ROS/src/robot_walk/CMakeLists.txt"
   "/home/mp/ROS/src/robot_walk/package.xml"
+  "/home/mp/ROS/src/robot_walk/scripts/avoid_obstacle.py"
   "/home/mp/ROS/src/robot_walk/scripts/walk.py"
   "/home/mp/ROS/src/turtlebot3/turtlebot3/CMakeLists.txt"
   "/home/mp/ROS/src/turtlebot3/turtlebot3/package.xml"

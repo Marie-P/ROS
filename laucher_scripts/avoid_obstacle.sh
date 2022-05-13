@@ -1,0 +1,1 @@
+export TURTLEBOT3_MODEL=waffle && catkin_make && source devel/setup.bash && rosrun robot_walk avoid_obstacle.py
