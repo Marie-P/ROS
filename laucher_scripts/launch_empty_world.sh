@@ -1,0 +1,1 @@
+export TURTLEBOT3_MODEL=waffle && catkin_make && source devel/setup.bash && roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
