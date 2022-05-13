@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/mp/Bureau/catkin_ws_projet_innovant/devel -DCMAKE_INSTALL_PREFIX=/home/mp/Bureau/catkin_ws_projet_innovant/install -G Unix Makefiles
