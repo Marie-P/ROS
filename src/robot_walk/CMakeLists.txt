@@ -205,6 +205,10 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
+#######################################################
+######################## PYTHON #######################
+#######################################################
+
 catkin_install_python(PROGRAMS scripts/walk.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
@@ -212,6 +216,26 @@ catkin_install_python(PROGRAMS scripts/walk.py
 catkin_install_python(PROGRAMS scripts/avoid_obstacle.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+catkin_install_python(PROGRAMS scripts/move.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+catkin_install_python(PROGRAMS scripts/manip.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+catkin_install_python(PROGRAMS scripts/detect_light_coral_object.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+catkin_install_python(PROGRAMS scripts/detect_blue_object.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+#######################################################
+######################### C++ #########################
+#######################################################
 
 add_executable(robot_walk src/robot_walk.cpp)
 add_dependencies(robot_walk ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
