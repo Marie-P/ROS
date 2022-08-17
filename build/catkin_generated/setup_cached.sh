@@ -12,5 +12,5 @@ export LD_LIBRARY_PATH="/home/mp/ROS/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/mp/ROS/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/mp/ROS/build'
 export PYTHONPATH="/home/mp/ROS/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/mp/ROS/devel/share/common-lisp'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/mp/ROS/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/mp/ROS/src:$ROS_PACKAGE_PATH"
