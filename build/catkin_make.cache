@@ -1,2 +1,2 @@
-robot_walk:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations
+robot_cleaner:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations
 -DCATKIN_DEVEL_PREFIX=/home/mp/ROS/devel -DCMAKE_INSTALL_PREFIX=/home/mp/ROS/install -G Unix Makefiles
