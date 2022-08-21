@@ -1,0 +1,8 @@
+prefix=/home/mp/ROS/install
+
+Name: turtlebot3_simulations
+Description: Description of turtlebot3_simulations
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
